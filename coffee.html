@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food Club</title>
+    <!-- ============ Font link Start ============ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- ============ Font link End ============ -->
+    <!-- ============ CSS File Link Start ============ -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ============ CSS File Link End ============ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="icon" type="image/jpg" href="logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!-- ============= Navbar Section Start ============= -->
+    <section>
+        <!-- ============== Header Seaction Start ================ -->
+        <header class="aside">
+            <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+            <div id="nav-toggler">
+                <span></span>
+            </div>
+            <img class="logo" src="images/logo.jpg" alt="">
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="index.html">gallery</a>
+                <div class="dropdown">
+                    <button class="dropbtn">categories</button>
+                    <div class="dropdown-content">
+                        <a href="hotel.html">hotels</a>
+                        <a href="coffee.html">coffee shop</a>
+                    </div>
+                </div>
+                <a href="index.html">review</a>
+                <a href="index.html">contact</a>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+            <form action="" class="search-btn-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </header>
+        <!-- ============= Header Seaction End===============  -->
+
+        <!-- ============= Login Seaction Start===============  -->
+        <div class="login-form-container">
+            <i class="fas fa-times" id="form-close"></i>
+            <form action="">
+                <h3><span>LOG</span>in</h3>
+                <input type="email" class="box" placeholder="user name...">
+                <input type="password" class="box" placeholder="password...">
+                <input type="submit" value="login now" class="button">
+                <input type="checkbox" id="remember" placeholder="">
+                <label for="remember">remember me</label>
+                <p>forget password <a href="#">click here</a></p>
+                <p>don't have and acount? <a href="#">sign up</a></p>
+            </form>
+        </div>
+        <!-- ============= Login Seaction End===============  -->
+    </section>
+    <!-- ============= Navbar Section Start ============= -->
+
+    <!-- ================= packages Section Start ================= -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span class="space"></span>
+            <span>c</span>
+            <span>o</span>
+            <span>f</span>
+            <span>f</span>
+            <span>e</span>
+            <span>e</span>
+            <span class="space"></span>
+            <span>s</span>
+            <span>h</span>
+            <span>o</span>
+            <span>p</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/coffee1.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Kiraz coffee house</h3>
+                    <p>Shop No. 14, Saeed Gaddafi Stadium, Block E 2 Gulberg III, Lahore, Punjab.</p>
+                    <p><i class="fa fa-phone"></i> (042) 35751190</p>
+                    <p><i class="fa fa-coffee"></i></i> Open: 8:00am-2:00am</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <!-- <div class="price">PKR4800.00 <span>PKR6485.00</span></div> -->
+                    <a href="https://www.google.com/maps/uv?pb=!1s0x3919046099795b11%3A0x873b97239943b0bc!15sCgIYIQ&viewerState=lb&sa=X&ved=2ahUKEwiNwbH3ppz9AhUkVqQEHQbXBIwQzeMEegQIBRAA"
+                        class="button">menu</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/coffee2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> shaghfcoffee</h3>
+                    <p>Mall 1, 94-D Main Blvd Gulberg, near Liberty Chowk, Lahore, 54000.</p>
+                    <p><i class="fa fa-phone"></i>  (042) 32346121</p>
+                    <p><i class="fa fa-coffee"></i></i> Open: 9:00am-1:00am</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <!-- <div class="price">PKR2138.00 <span>PKR2934.00</span></div> -->
+                    <a href="https://www.google.com/maps/uv?pb=!1s0x39190511e588694b%3A0x3339f51af2d1bbc4!15sCgIYIQ&viewerState=lb&sa=X&ved=2ahUKEwjnq4vJp5z9AhWOT6QEHYylDm0QzeMEegQIBRAA"
+                        class="button">menu</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/coffee3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Coffee Tea & Company</h3>
+                    <p> B, 3, 3 Mian Mehmood Ali Kasoori Rd Block B 3 Gulberg III, Lahore, Punjab.</p>
+                    <p><i class="fa fa-phone"></i>  0345 8456753</p>
+                    <p><i class="fa fa-coffee"></i> Open: 8:00am-2:00am</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <!-- <div class="price">PKR7055.00 <span>PKR7855.00</span></div> -->
+                    <a href="https://www.google.com/maps/uv?pb=!1s0x3919044dc0c8fcad%3A0x89c50e84903540a8!15sCgIYIQ&viewerState=lb&sa=X&ved=2ahUKEwjh5PSIqJz9AhVJT6QEHf0lCZYQzeMEegQICBAA"
+                        class="button">menu</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/coffee4.jpg " alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Mocca Coffee</h3>
+                    <p>Mall 94 Fashion Ave, Gaba St, Block D1 Gulberg III, Lahore, Punjab.</p>
+                    <p><i class="fa fa-phone"></i> 0300 8430024</p>
+                    <p><i class="fa fa-coffee"></i> Open: 8:00am-1:30am</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <!-- <div class="price">PKR4461.00 <span>PKR4817.00</span></div> -->
+                    <a href="https://www.google.com/maps/uv?pb=!1s0x391904f7e270fe0d%3A0xff0a22b0a06b773a!15sCgIYIQ&viewerState=lb&sa=X&ved=2ahUKEwj805ejqJz9AhWEUqQEHYqOAeIQzeMEegQICRAA"
+                        class="button">menu</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/coffee5.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Wayne's Coffee & Food</h3>
+                    <p>Fashion Ave, Block D1 Gulberg III, Lahore, Punjab.</p>
+                    <p><i class="fa fa-phone"></i> 0321 7553996</p>
+                    <p><i class="fa fa-coffee"></i> Open: 12:00pm-12:00am</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <!-- <div class="price">PKR6325.00 <span>PKR10,838.00</span></div> -->
+                    <a href="https://www.google.com/maps/uv?pb=!1s0x391905ea5b11647d%3A0xd832dd1c479635f1!15sCgIYIQ&viewerState=lb&sa=X&ved=2ahUKEwjGk4SzqJz9AhXwUqQEHR5IB_wQzeMEegQIChAA"
+                        class="button">menu</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/coffee6.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> The Coffee Bean & Tea Leaf</h3>
+                    <p> Fountain Avenue،, Main Blvd Gulberg, Block H Gulberg 2, Lahore, Punjab.</p>
+                    <p><i class="fa fa-phone"></i> (042) 38911007</p>
+                    <p><i class="fa fa-coffee"></i> Open: 8:00am-1:00am</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <!-- <div class="price">PKR14773.00 <span>PKR15358.00</span></div> -->
+                    <a href="https://www.google.com/maps/uv?pb=!1s0x391904fba92bb6ad%3A0xd84daaee36aa144d!15sCgIYIQ&viewerState=lb&sa=X&ved=2ahUKEwiBr7TBqJz9AhX4RaQEHWsMDj0QzeMEegQIBRAA"
+                        class="button">menu</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ================= packages Section End ================= -->
+
+    <!-- ================= Footer Section Start ================= -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">Gulberg</a>
+                <a href="#">Gulberg III</a>
+                <a href="#">defance</a>
+                <a href="#">Gulberg 2</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="/index.html">home</a>
+                <a href="index.html">gallery</a>
+                <a href="#blog">blog</a>
+                <a href="index.html">review</a>
+                <a href="index.html">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/explorewithLRT/ ">facebook</a>
+                <a href="https://www.facebook.com/explorewithLRT/ ">instagram</a>
+                <a href="https://www.facebook.com/explorewithLRT/ ">twitter</a>
+                <a href="https://www.facebook.com/explorewithLRT/ ">linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit"> @created by <span>Ghulam Mustafa</span>!!!</h1>
+    </section>
+    <!-- ================= Footer Section End ================= -->
+    <!-- ============== Js file link Start ============== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- ============== Js file link End ============== -->
+</body>
+
+</html>
